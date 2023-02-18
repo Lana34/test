@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+.prices__row,
+.prices__deep,
+.prices__cart,
+.prices__deepRow,
+.prices__advantagesItem,
+.prices__list {
+  display: flex;
+}
+
+.prices__list,
+.prices__advantages,
+.prices__deepItem {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+.prices__row {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.prices__cart,
+.prices__list,
+.prices__deep {
+  flex-direction: column;
+}
+
+.prices__cart {
+  min-width: 281px;
+  min-height: 452px;
+  border-right: 1px solid #0d274d;
+  border-bottom: 1px solid #0d274d;
+  justify-content: space-between;
+}
+
+.prices__cart:first-child {
+  border-left: 1px solid #0d274d;
+}
+
+.prices__name {
+  background: #0d274d;
+  text-align: center;
+  color: #ffffff;
+  padding: 15px 0px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.prices__advantages {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  margin-top: 14px;
+}
+
+.prices__advantagesIcon {
+  padding: 0px 11.77px 0px 16px;
+}
+
+.prices__advantagesItem:first-child {
+  margin-bottom: 10px;
+}
+
+.prices__list {
+  text-align: center;
+  min-height: 120px;
+  justify-content: center;
+}
+
+.prices__listItem {
+  margin-bottom: 14px;
+}
+
+.prices__listAmount {
+  color: #0e9a0b;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.prices__listText {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  color: #282828;
+}
+
+.prices__deep {
+  margin-top: auto;
+  min-height: 181px;
+}
+
+.prices__line {
+  margin: 0 auto 14px auto;
+  width: 238px;
+  height: 1px;
+  background: #00bceb;
+}
+
+.prices__deepRow {
+  justify-content: space-around;
+}
+
+.prices__deepAmount {
+  padding-bottom: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration-line: underline;
+}
+
+.prices__deepAmount:hover {
+  text-decoration: none;
+  color: #00bbea;
+}
+
+.prices__deepIcon {
+  padding-right: 15.5px;
+}
+
+.prices__deepBtn {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 250px;
+  height: 46px;
+  margin: 0px 17px auto;
+  background: #00bceb;
+  border-radius: 6px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin: auto auto 17px auto;
+}
+
+@media (max-width: 856px) {
+  .prices__cart {
+    border: 1px solid #0d274d;
+  }
+}
+@media (max-width: 640px) {
+  .prices__cart {
+    border: 1px solid #0d274d;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .prices__name {
+    width: 100%;
+  }
+
+  .prices__advantagesIcon {
+    padding-left: 0;
+  }
+}
