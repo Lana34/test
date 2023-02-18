@@ -117,6 +117,7 @@ $font2: Montserrat, sans-serif;
 .prices__deepAmount:hover {
   text-decoration: none;
   color: $deepColor;
+  cursor: url("../assets/cursor.png"), auto;
 }
 
 .prices__deepIcon {
@@ -136,6 +137,9 @@ $font2: Montserrat, sans-serif;
   line-height: 21px;
   color: $btnColor;
   margin: auto auto 17px auto;
+}
+.prices__deepBtn:hover {
+  cursor: url("../assets/cursor.png"), auto;
 }
 
 @media (max-width: 856px) {

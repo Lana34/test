@@ -118,6 +118,7 @@
 .prices__deepAmount:hover {
   text-decoration: none;
   color: #00bbea;
+  cursor: url("../assets/cursor.png"), auto;
 }
 
 .prices__deepIcon {
@@ -137,6 +138,10 @@
   line-height: 21px;
   color: #ffffff;
   margin: auto auto 17px auto;
+}
+
+.prices__deepBtn:hover {
+  cursor: url("../assets/cursor.png"), auto;
 }
 
 @media (max-width: 856px) {
